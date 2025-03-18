@@ -38,7 +38,7 @@ ggplot(
 ) +
   geom_point(aes(color = species,
                  shape = species),
-             na.rm = TRUE)
+             na.rm = TRUE) # remove NA values
 
 ggplot(
   penguins,

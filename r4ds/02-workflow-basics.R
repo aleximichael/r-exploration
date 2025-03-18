@@ -2,11 +2,12 @@
 
 library(tidyverse)
 
+
 # 2.1 Basic R Code --------------------------------------------------------
 
 1 / 200 * 30 # basic math
 
-x <- 3 * 4 # object creation (Option + Minus)
+x <- 3 * 4 # object creation (shortcut: Option + Minus)
 
 primes <- c(2, 3, 5) # combine into vector
 
@@ -20,4 +21,3 @@ seq(1, 10) # create a sequence of numbers
 ggplot(mpg, aes(x = displ, y = hwy)) +
   geom_point() +
   geom_smooth(method = "lm")
-
